@@ -1,0 +1,133 @@
+body,html{
+	height: 100%;
+	margin: 0;
+}
+ 
+ /*formatação da img de fundo*/
+.bghome{
+	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("https://images7.alphacoders.com/475/475156.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.bgmembros{
+	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("https://images8.alphacoders.com/475/thumb-1920-475154.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.bgalbum{
+	background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://images7.alphacoders.com/454/thumb-1920-454978.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.bgredes{
+	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("https://images6.alphacoders.com/475/thumb-1920-475159.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+.bgpremios{
+	background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://images7.alphacoders.com/475/thumb-1920-475152.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+a{
+	text-decoration: none;
+}
+
+/*menu*/
+.menu{
+	background-color: #DCDCDC;
+	position: fixed;
+	width: 100%;
+	display: flex;
+}
+
+.menu li{
+	display: inline-block;
+}
+
+.menu a{
+	color: #696969;
+	font-family: arial;
+	padding: 8px 12px;
+	border-radius: 3px;
+	transition: 200ms;
+}
+
+.menu .ativo, .menu a:hover{
+	color: #000000;
+	background-color: #FFFFFF; 
+}
+
+/*principal*/
+.texto{
+	color: #FFFFFF;
+	padding: 60px;
+	text-align: justify;
+}
+.texto a{
+	font-size: 30px;
+}
+.texto a:hover{
+	color: #00b7ff;
+}
+
+*{
+	color: #FFFFFF;
+}
+
+h2 {
+	font-size: 50px;
+	text-align: center;
+}
+
+p{
+	font-size: 20px;
+}
+
+/*Album*/
+.album{
+	padding: 70px;
+}
+
+/*Tabela*/
+.album table{
+	border-color: #FFFFFF;
+	font-size: 17px;
+	border-collapse: collapse;
+}
+
+.album th, td{
+	padding: 10px;
+	text-align: center;
+}
+
+.album a:link{
+	color: #FFFFFF;
+}
+
+.album a:hover{
+	color: #00b7ff;
+}
+
+.referencia a:link{
+	color: #00b7ff;
+	font-size: 20px;
+}
+
+.referencia a:hover{
+	color: #00b7ff;
+}
